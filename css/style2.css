@@ -1,0 +1,29 @@
+/*Element/ Type Selector*/
+h1 {
+    color: red;
+}
+
+/*ID Selector*/
+h1#my_head_id{
+    color: green;
+}
+
+/*Class Selector*/
+h1.my_head_class {
+    color: blue;
+}
+
+
+
+h1.teach_class{
+    background-color: blue;
+}
+ul.teach_class{
+    background-color: red;
+}
+ul.teach_class{
+    background-color: brown;
+}
+p#teach_class{
+    background-color: aqua;
+}

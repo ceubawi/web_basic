@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*Group Selector*/
+        #h1_id,
+        #p_id,
+        .ul_class,
+        #ol_id {
+            background-color: brown;
+            font-size: larger;
+        }
+
+        img {
+            width: 100px;
+        }
+
+        .article {
+            border: 1px solid rgb(121, 4, 230);
+            background-color: antiquewhite;
+            margin-bottom: 20px;
+        }
+
+        .title {
+            border-bottom: 1px solid green;
+        }
+        .latest {
+            background-color: rgb(214, 137, 36);
+        }
+        .hot {
+            background-color: red;
+        }
+
+        div#form_id {
+            margin-bottom: 20px;
+        }
+
+        input {
+            margin-bottom: 10px;
+        }
+        /*Attribute Selector*/
+        input[type="email"] {
+            border: 1px solid red;
+        }
+
+        input[type="submit"] {
+            background-color: blueviolet;
+        }
+
+        label[for="name"] {
+            color: red;;
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+        }
+
+        img[alt="Img One"] {
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+    <div id="img_test">
+
+        <img src="images/girl.jpg" alt="Img One">
+        <img src="images/girl2.jpg" alt="img two">
+        <img src="images/nini.jpg">
+    </div>
+    <div id="form_id">
+        <form>
+            <label for="name">Your Name</label>
+            <input type="text" placeholder="Enter Your Name" id="name"><br>
+            <label for="age">Your Age</label>
+            <input type="number" id="age" placeholder="Enter YOur AGe"><br>
+            <label for="email">Your Email</label>
+            <input type="email" id="email" placeholder="Enter your Email"><br>
+            <input type="submit">
+        </form>
+    </div>
+    <div id="articles">
+        <div class="article">
+            <h1 class="title latest">Article Title One</h1>
+            <img src="images/girl.jpg" alt="Test Title">
+            <p>Author: Mg Mg</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas adipisci, ipsa ex reprehenderit dolores recusandae ipsum consequatur a porro soluta sequi nostrum, quidem eveniet harum velit similique at iure ut.</p>
+        </div>
+        <div class="article">
+            <h1 class="title latest">Article Title Two</h1>
+            <img src="images/girl.jpg" alt="Test Title">
+            <p>Author: Mg Mg</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas adipisci, ipsa ex reprehenderit dolores recusandae ipsum consequatur a porro soluta sequi nostrum, quidem eveniet harum velit similique at iure ut.</p>
+        </div>
+        <div class="article">
+            <h1 class="title hot">Article Title Two</h1>
+            <img src="images/girl.jpg" alt="Test Title">
+            <p>Author: Mg Mg</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas adipisci, ipsa ex reprehenderit dolores recusandae ipsum consequatur a porro soluta sequi nostrum, quidem eveniet harum velit similique at iure ut.</p>
+        </div>
+        <div class="article">
+            <h1 class="title">Article Title Two</h1>
+            <img src="images/girl.jpg" alt="Test Title">
+            <p>Author: Mg Mg</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas adipisci, ipsa ex reprehenderit dolores recusandae ipsum consequatur a porro soluta sequi nostrum, quidem eveniet harum velit similique at iure ut.</p>
+        </div>
+        <div class="article">
+            <h1 class="title">Article Title Two</h1>
+            <img src="images/girl.jpg" alt="Test Title">
+            <p>Author: Mg Mg</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas adipisci, ipsa ex reprehenderit dolores recusandae ipsum consequatur a porro soluta sequi nostrum, quidem eveniet harum velit similique at iure ut.</p>
+        </div>
+    
+    </div>
+    <div id="latest-news">
+
+    </div>
+    <hr>
+    <h1 id="h1_id">Hello Html</h1>
+    <p id="p_id">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore corrupti, amet vel consectetur illum error unde velit, id ab illo itaque assumenda voluptas vitae, nisi aspernatur tempora quo nulla quos.</p>
+    <ul class="ul_class">
+        <li>orange</li>
+        <li>orange</li>
+        <li>orange</li>
+        <li>orange</li>
+    </ul>
+    <ol id="ol_id">
+        <li>Hakha</li>
+        <li>Hakha</li>
+        <li>Hakha</li>
+        <li>Hakha</li>
+    </ol>
+    <hr>
+</body>
+</html>

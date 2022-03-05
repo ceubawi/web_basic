@@ -9,3 +9,10 @@
 ## Javascript
 ### CoffeeScript, TypeScript
 ## VBScript
+
+CSS Selectors
+############
+Element/Type Selector
+ID Selector
+Class Selector
+Attribute Selector

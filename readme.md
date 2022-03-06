@@ -16,3 +16,12 @@ Element/Type Selector
 ID Selector
 Class Selector
 Attribute Selector
+
+Descendant Selector
+Child Selector
+
+Pseudo-Classes
+
+
+
+

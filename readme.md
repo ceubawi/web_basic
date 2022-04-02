@@ -22,6 +22,14 @@ Child Selector
 
 Pseudo-Classes
 
+CSS Display
+##########
+
+1. Block
+2. Inline
+
+
+
 
 
 
